@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Custom Boilerplate</title>
+  <title>Parallax Narrative: The Legend of Grimblo</title>
   <meta name="description" content="This is a temporary description for Allie's custom boilerplate.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="Custom Boilerplate">
+  <meta property="og:title" content="Parallax Narrative">
   <!-- <meta property="og:type" content=""> -->
   <meta property="og:url" content="https://creative.colorado.edu/~alle0200/dev/allie-boilerplate/dist/index.html">
   <meta property="og:image" content="https://creative.colorado.edu/~alle0200/dev/allie-boilerplate/dist/tile-wide.png">
@@ -31,9 +31,11 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  
+  <!-- <div class="container">
 
-  <div class="container">
+    <p>Hello world! This is HTML5 Boilerplate.</p>
+
     
     <div class="fullwidth"></div>
 
@@ -58,7 +60,62 @@
     <div class="eighthwidth"></div>
     <div class="eighthwidth"></div>
 
+  </div> -->
+
+  <!-- <div class="parallax">
+    <div class="parallax_scene1">
+      <div class="parallax_group parallax_scene1--bg">
+        <h1>Grimblo</h1>
+      </div>
+      <div class="parallax_group parallax_scene1--character">
+      </div>
+    </div>
+    <div class="parallax_scene1">
+      <div class="parallax_group parallax_scene1--bg">
+        <h1>Grimblo</h1>
+      </div>
+      <div class="parallax_group parallax_scene1--character">
+      </div>
+    </div>
+  </div> -->
+
+  <div class="parallax">
+    <div class="parallax_scene1">
+      <h1>Grimblo</h1>
+      <div class="parallax_layer parallax_scene1--bg"></div>
+      <div class="parallax_layer parallax_scene1--character"></div>
+    </div>
+    
+    <div class="parallax_scene2">
+      <div class="parallax_layer parallax_scene2--bg"></div>
+      <div class="parallax_layer parallax_scene1--character"></div>
+    </div>
+
+    <div class="parallax_scene3">
+      <div class="parallax_layer parallax_scene3--bg"></div>
+      <div class="parallax_layer parallax_scene1--character"></div>
+    </div>
+
+    <div class="parallax_scene4">
+      <div class="parallax_layer parallax_scene4--bg"></div>
+      <div class="parallax_layer parallax_scene1--character"></div>
+    </div>
+
+    <div class="parallax_scene5">
+      <div class="parallax_layer parallax_scene5--bg"></div>
+      <div class="parallax_layer parallax_scene1--character"></div>
+    </div>
+
   </div>
+
+  <!-- <div class="parallax parallax_scene1--bg">
+  </div>
+  <div class="parallax parallax_scene1--character"></div>
+  <div>
+    <h1>Grimblo</h1>
+  </div>
+  <div class="parallax parallax_scene1--bg">
+  </div> -->
 
   <script src="js/vendor/modernizr-3.11.8.min.js"></script>
   <script src="js/app.js"></script>
