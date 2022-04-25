@@ -23,6 +23,19 @@ img
 	align-items: stetch;
 }
 
+.container2{
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	align-content: flex-start;
+	align-items: stetch;
+}
+
 .fullwidth
 {
 	// width: 98%;
@@ -37,6 +50,25 @@ img
 	flex-wrap: wrap;
 
 	background-color: $flexboxcolor;
+	border-radius: $radius;
+
+	z-index: 800;
+}
+
+.fullwidth2
+{
+	// width: 98%;
+	// margin: 1%;
+	// padding: 1%;
+
+	width: calc(100% - $flexboxmargin - $flexboxpadding);
+	margin: $flexboxmargin;
+	padding: $flexboxpadding;
+
+	box-sizing: border-box;
+	flex-wrap: wrap;
+
+	background-color: rgba(0,0,0,0);
 	border-radius: $radius;
 }
 
@@ -54,6 +86,8 @@ img
 
 	background-color: $flexboxcolor;
 	border-radius: $radius;
+
+	z-index: 800;
 }
 
 .thirdwidth
@@ -110,6 +144,8 @@ img
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+
+	color: white;
 }
 
 .parallax {
@@ -262,7 +298,7 @@ img
 	background-image: url("../dist/img/grimblo2.png");
 
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: left;
 	// padding-bottom: 100px;
 }
 
@@ -327,15 +363,11 @@ img
 	// left: 17.5%;
 }
 
-.center {
+.center2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 200px;
-}
-
-.invisible {
-	background-color: rgba(0,0,0,0);
 }
 
 h1 {

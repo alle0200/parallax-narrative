@@ -4,7 +4,7 @@
 # TEAM
 
 	Name: Allie Lew
-	Contributions: Developed the boilerplate
+	Contributions: Developed the boilerplate, wrote the story, made all the images, wrote the HTML, wrote the CSS
 
 # THANKS
 
